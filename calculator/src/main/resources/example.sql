@@ -3,6 +3,7 @@
 --Система управления базой данных, которую мы
 --используем - PostgreSQL.
 --Данные в базе данных хранятся в таблицах
+--Ссылка на иструкцию: https://info-comp.ru/sisadminst/512-review-and-install-postgresql-9-5.html
 
 --Удаляет всю таблицу (не данные в ней)
 DROP TABLE product;

@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <title>Варианты ответа</title>
 </head>
+<form action="/save">
 <#list options as o>
-<p>${o.text}</p>
+<input type="radio" name="option" value="${o.id}">${o.text}
 </#list>
+<input type="submit">
+</form>
 </body>
 </html>

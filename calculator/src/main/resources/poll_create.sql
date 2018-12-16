@@ -18,4 +18,7 @@ INSERT INTO option (text, poll_id, count)
 VALUES ('красный', 1, 0);
 INSERT INTO option (text, poll_id, count)
 VALUES ('зеленый', 1, 0);
-
+CREATE TABLE feedback (
+	id SERIAL,
+	comment TEXT
+);

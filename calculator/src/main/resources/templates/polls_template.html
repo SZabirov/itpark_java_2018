@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
 Список вопросов:
-<p>${question}</p>
+<#list polls as p>
+    <p><a href="/options?id=${p.id}">${p.question}</a></p>
+</#list>
 </body>
 </html>
